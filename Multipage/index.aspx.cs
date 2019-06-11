@@ -11,7 +11,8 @@ namespace Multipage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Greeting greeting = new Greeting();
+            LblWelcome.Text = greeting.newGreeting();
         }
     }
 }

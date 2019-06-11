@@ -22,7 +22,7 @@
             <br />
             <br />
             <img alt="cc" class="auto-style1" src="Images/dealWithIt.gif" />&nbsp;&nbsp;
-            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="LblWelcome" runat="server"></asp:Label>
             <br />
             <br />
             Click here to go to <a href="index.aspx">page 1</a>.</div>
